@@ -1,0 +1,161 @@
+/*papel de parede e espçamento no cabeçalho*/
+header {
+    background: #BB9981;
+    padding: 20px 0;
+}
+
+/*posição links*/
+.caixa {
+   position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+/*espaçamento links*/
+nav {
+    position:absolute;
+    top: 110px;
+    right: 0px;
+}
+
+/*listas ordenadas e espaço entre palavras*/
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase; /*tudo maiuscul*/
+    color: #000000; /*cor*/
+    font-weight: bold; /*negrito*/
+    font-size: 22px; /*cor*/
+    text-decoration: none; /*sem sublinhado*/
+}
+
+nav a:hover {
+    color: #534340;  /*cor quando passa o mouse no link*/
+    text-decoration: underline; /*sublinhado quando passa o mouse*/
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 55px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: #C5D8A4; /*cor borda*/
+    border-width: 5px; /*tamanho borda*/
+    border-style: solid; /*borda sólida*/
+    border-radius: 20px; /*arredonda bordas*/
+    /*border: 2px solid #000000*/
+
+}
+
+.produtos li:hover {
+    border-color: #A2D5AB; /*cor quando passa o mouse*/
+}
+
+.produtos li:active {
+    border-color: #85C88A; /*cor quando clica*/
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center; /*centralizar texto*/
+    background-color: #4A403A;
+    padding: 40px 0;    
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50% ;
+}
+
+.checkbox {
+    margin:20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: #A2D5AB;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: #85C88A;
+    transform: scale(1.2);
+}
+
+table {
+    margin:20px 0 40px;
+}
+
+thead {
+    background: #85C88A;
+    font-weight: bold;
+}
+
+td,th {
+    border: 1px solid #000000;
+    padding: 8px 15px ;
+}
+
+
+
